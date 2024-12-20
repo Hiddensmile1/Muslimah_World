@@ -1,0 +1,123 @@
+body {
+    line-height: 1;
+    background-color: #7400b8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 100vh;
+    /* color: #7400b8;*/
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+.muslimah-mom {
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px 25px;
+    width: 100%;
+    max-width: 960px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+
+.muslimah {
+    border-bottom: 1px solid #e1f1ff;
+}
+
+.muslimah:last-child {
+    border-bottom: none;
+}
+
+.muslimah_img {
+    margin-bottom: 25px;
+    max-width: 100%;
+}
+
+.muslimah-header {
+    color: #ad07ad;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.muslimah-features {
+    margin: 50px 0 25px;
+    color: #4c11cc;
+}
+
+.muslimah-features-item {
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 12px;
+    line-height: 1.5;
+    padding: 15px 0;
+    border-top: 1px solid #e1f1ff;
+}
+
+.muslimah-features-item:last-child {
+    border-bottom: 1px solid #e1f1ff;
+}
+
+.muslimah-place {
+    color: #be47a5;
+    display: block;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.muslimah-button {
+    border: 1px solid #ad07ad;
+    border-radius: 10px;
+    color: #64499e;
+    display: inline-block;
+    padding: 15px 35px;
+    text-decoration: none;
+    margin: 25px 0;
+    transition: background-color 200ms ease-in-out;
+}
+
+.muslimah-button:hover,
+.muslimah-button:focus {
+    background-color: #9c86ce;
+}
+
+.muslimah-button.is-featured {
+    background-color: #e04dbc;
+    color: white;
+}
+
+.muslimah-button.is-featured:hover,
+.muslimah-button.is-featured:focus {
+    background-color: #e21fe2;
+    color: white;
+}
+
+a {
+    list-style: none;
+}
+
+@media(min-width: 900px) {
+    .muslimah-mom {
+        flex-direction: row;
+    }
+
+    .muslimah {
+        border-bottom: none;
+        border-right: 1px solid #4c11cc;
+        padding: 25px 50px;
+    }
+
+    .muslimah:last-child {
+        border-right: none;
+    }
+}
